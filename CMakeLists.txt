@@ -6,3 +6,4 @@ set(CMAKE_C_STANDARD 99)
 add_executable(leetcode_niuke main.c)
 
 add_executable(MaxSubArrSum array/max-sub-arr-sum/MaxSubArrSum_1.c)
+add_executable(DivOtherArr array/div-other-arr/DivOtherArr.c)

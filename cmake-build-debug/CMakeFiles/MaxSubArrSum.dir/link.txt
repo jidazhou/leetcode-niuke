@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\MaxSubArrSum.dir/objects.a
+"D:\Program Files\JetBrains\CLION2~1.3\bin\mingw\bin\ar.exe" qc CMakeFiles\MaxSubArrSum.dir/objects.a @CMakeFiles\MaxSubArrSum.dir\objects1.rsp
+"D:\Program Files\JetBrains\CLION2~1.3\bin\mingw\bin\gcc.exe" -g -Wl,--whole-archive CMakeFiles\MaxSubArrSum.dir/objects.a -Wl,--no-whole-archive -o MaxSubArrSum.exe -Wl,--out-implib,libMaxSubArrSum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MaxSubArrSum.dir\linklibs.rsp

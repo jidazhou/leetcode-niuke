@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\leetcode_niuke.dir/objects.a
+"D:\Program Files\JetBrains\CLION2~1.3\bin\mingw\bin\ar.exe" qc CMakeFiles\leetcode_niuke.dir/objects.a @CMakeFiles\leetcode_niuke.dir\objects1.rsp
+"D:\Program Files\JetBrains\CLION2~1.3\bin\mingw\bin\gcc.exe" -g -Wl,--whole-archive CMakeFiles\leetcode_niuke.dir/objects.a -Wl,--no-whole-archive -o leetcode_niuke.exe -Wl,--out-implib,libleetcode_niuke.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\leetcode_niuke.dir\linklibs.rsp

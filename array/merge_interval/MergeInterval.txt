@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main (){
+	int arr[][] = {{1, 3}, {5,8}, {7, 10}, {8, 13}};
+	int exLength = sizeof(arr)/sizeof(arr[0]);
+	
+	for(int i = 0; i < exLength; i++){
+		if(*(*arr + i) < *(*(arr + i))){
+			continue;
+		}
+		
+	}
+}
